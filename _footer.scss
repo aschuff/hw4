@@ -1,0 +1,70 @@
+footer {
+  background-color: white;
+  margin-top: 2em;
+  overflow: hidden;
+}
+
+.footer-left {
+  display: inline-block;
+  width: 40%;
+  text-align: left;
+  margin-left: 2em;
+
+  .footer-social-boxes  {
+    position: relative;
+    width: 13em;
+    // right: 13em;
+    // bottom: 25em;
+
+    .fa-facebook-square {
+      color: gray;
+      top: 0em;
+      left: 0em;
+      width: 1em;
+      }
+
+    .fa-rss-square {
+      color: gray;
+      width: 1em;
+      top: 0em;
+      }
+
+    .fa-twitter-square {
+      color: gray;
+      width: 1em;
+      top: 0em;
+      }
+
+    .fa-youtube-square {
+      color: gray;
+      width: 1em;
+      top: 0em;
+      }
+  }
+}
+
+
+.contact-form {
+  width: 40%;
+  height: 100%;
+  position: relative;
+  bottom: 4em;
+  left: 7em;
+  display: inline-block;
+}
+    .form-item {
+      display: block;
+      width: 100%;
+      margin-bottom: 2%;
+      box-shadow: -3px -3px rgba(130, 128, 128, 0.21);
+    }
+
+    #form-submit {
+      position: relative;
+      top: 1em;
+      left: 14em;
+      background-color: #910000;
+      color: #FFF;
+      width: 47%;
+      font-size: 14px
+    }
