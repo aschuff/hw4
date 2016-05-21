@@ -4,6 +4,7 @@
 <head>
     <meta charset="utf-8">
     <title>Sk8 Site</title>
+    <!-- <link rel="normalize" href="normalize.css"> -->
     <link href=
     "https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel=
     "stylesheet">
@@ -12,17 +13,19 @@
   </head>
 
   <body>
+<div class="page-container">
+
 
 <header>
 
-  <div id="color-overlay">..
+  <div id="color-overlay">
   </div>
-     <div id="element-with-background-image">
-     </div>
+     <!-- <div id="element-with-background-image">
+     </div> -->
 
   <div class="row1-navbar">
     <div class="subscribe">
-      <h5>Subscribe</h5>
+      <div>Subscribe</div>
     </div>
     <div class="social-boxes">
       <span class="fa fa-facebook-square fa-3x"> </span>
@@ -33,17 +36,17 @@
   </div>
 
   <div class="row2-tabs">
-    <h4> - SK8T - </h4>
-    <h4> - SK8 BORDERS - </h4>
-    <h4> - BOARD DESIGN - </h4>
-    <h4> - CONTACT US - </h4>
+    <div>- SK8T -</div>
+    <div>- SK8 BORDERS -</div>
+    <div>- BOARD DESIGN -</div>
+    <div>- CONTACT US -</div>
   </div>
 
   <div class="row3-slider-imgs">
 
-    <div class="bottomimg">
+    <!-- <div class="bottomimg">
       <img src="images/top-image.png" alt="camera guy" />
-    </div>
+    </div> -->
     <div class="grid">
       <img src="images/grid.png" alt="grid overlay" />
     </div>
@@ -51,13 +54,13 @@
       <img src="images/peralta-logo.png" alt="peralta logo" />
     </div>
 
-    <div class="3dots">
+    <!-- <div class="3circles">
       <ul>
         <li></li>
         <li></li>
         <li></li>
       </ul>
-    </div>
+    </div> -->
   </div>
 </header>
 
@@ -69,7 +72,7 @@
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-      <h4>[Read more]</h4>
+      <span>[Read more]</span>
     </div>
 
     <div class="article2">
@@ -78,7 +81,7 @@
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-      <h4>[ Read more ]</h4>
+      <span>[ Read more ]</span>
     </div>
 
     <div class="article3">
@@ -87,24 +90,67 @@
       <p>
         Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
       </p>
-      <h4>[Read more]</h4>
+      <span>[Read more]</span>
     </div>
   </div>
 
-  <div class="row5">
-    <div class="base-shape">
-      <h3>SKATEBOARDERS</h3>
-    </div>
+<h3>SKATEBOARDERS</h3>
+  <div class="skatersrow5">
+    <div class="col1">
+      <!-- <div class="row1-half-pics">
+        <div class="top-pic-left"> -->
+          <!-- <img src="images/sk8er-4.png" alt="Lance Mountain"/> -->
+          <div id="lance"><span>LANCE MOUNTAIN</span></div>
+          <div id="rodney"><span>RODNEY MULLEN</span></div>
+          <div id="steve"><span>STEVE CABALLERO</span></div>
+          </div>
 
-    <div class="top-grid">
-      <img src="images/sk8er-4.png" alt="Lance Mountain" />
+          <div class="col2">
+            <div id="tommy"><span>TOMMY GUERRERO</span></div>
+          </div>
+        </div>
+
+        <!-- <div class="col1-5"> -->
+          <!-- <div class="top-pic-right"> -->
+            <!-- <img src="images/sk8er-3.png" alt="Rodney Mullen"/> -->
+
+
+        <!-- </div> -->
+
+
+<!-- <div class="row2-bottom-pic">
+  <div class="bottom-center-steve"> -->
+    <!-- <img src="images/sk8er-4.png" alt="Steve Caballero"/> -->
+    <!-- <span id="skater-names">STEVE CABALLERO</span>
+  </div>
+</div>
+</div>
+
+    <div class="col2">
+      <div class="side-pic-tommy">
+        <div class="tommy">
+          <img src="images/sk8er-2.png" alt="Tommy Guerrero" />
+          <span id="skater-names">TOMMY GUERRERO</span>
+        </div>
+    </div>
+  </div>
+</div>
+<!-- </div> -->
+      <!-- <div class="tommy">
+        <img src="images/sk8er-2.png" alt="Tommy Guerrero" />
+        <span>Rodney Mullen</span>
+      </div> -->
+
+
+    <!-- <div class="top-grid">
+      <img id="lance"src="images/sk8er-4.png" alt="Lance Mountain" />
       <h2>Lance Mountain</h2>
-      <img src="images/sk8er-3.png" alt="Rodney Mullen" />
+      <img id="rodney"src="images/sk8er-3.png" alt="Rodney Mullen" />
       <h2>Rodney Mullen</h2>
     </div>
 
     <div class="bottom-grid">
-      <img src="images/sk8er1-.png" alt="Steve Caballero" />
+      <img src="images/sk8er-1.png" alt="Steve Caballero" />
       <h2>Steve Caballero</h2>
     </div>
 
@@ -112,7 +158,7 @@
       <img src="images/sk8er-2.png" alt="Tommy Guerrero" />
       <h2>Tommy Guerrero</h2>
     </div>
-  </div>
+  </div> -->
 
   <div class="row6-skateboards">
     <img src="images/sk8-1.png" alt="skateboard1" />
@@ -156,6 +202,7 @@
   </div>
 
   </footer>
-
+</div>
+<!-- </div> -->
 </body>
 </html>
