@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="utf-8">
-    <title>Sk8 Site</title>
+    <title>Sk8r Site</title>
     <!-- <link rel="normalize" href="normalize.css"> -->
     <link href=
     "https://cdnjs.cloudflare.com/ajax/libs/normalize/4.1.1/normalize.css" rel=
@@ -13,25 +13,26 @@
   </head>
 
   <body>
-<div class="page-container">
+<div id="base">
+  <div>SKATEBOARDERS</div>
+</div>
 
+  <div class="page-container">
 
 <header>
 
   <div id="color-overlay">
   </div>
-     <!-- <div id="element-with-background-image">
-     </div> -->
 
   <div class="row1-navbar">
     <div class="subscribe">
       <div>Subscribe</div>
     </div>
     <div class="social-boxes">
-      <span class="fa fa-facebook-square fa-3x"> </span>
-       <span class="fa fa-rss-square fa-3x"> </span>
-       <span class="fa fa-twitter-square fa-3x"> </span>
-       <span class="fa fa-youtube-square fa-3x"> </span>
+      <a href="https://www.facebook.com/"><span class="fa fa-facebook-square fa-3x"></span></a>
+       <a href="https://www.rssinclude.com/"><span class="fa fa-rss-square fa-3x"> </span></a>
+       <a href="https://twitter.com/"><span class="fa fa-twitter-square fa-3x"> </span></a>
+       <a href="https://youtube.com/"><span class="fa fa-youtube-square fa-3x"> </span></a>
     </div>
   </div>
 
@@ -44,62 +45,55 @@
 
   <div class="row3-slider-imgs">
 
-    <!-- <div class="bottomimg">
-      <img src="images/top-image.png" alt="camera guy" />
-    </div> -->
     <div class="grid">
       <img src="images/grid.png" alt="grid overlay" />
     </div>
     <div class="topimg">
-      <img src="images/peralta-logo.png" alt="peralta logo" />
+      <a href="http://powell-peralta.com/"><img src="images/peralta-logo.png" alt="peralta logo" /></a>
     </div>
 
-    <!-- <div class="3circles">
-      <ul>
-        <li></li>
-        <li></li>
-        <li></li>
-      </ul>
-    </div> -->
   </div>
 </header>
 
 <section>
   <div class="row4-articles">
-    <div class="article1">
-      <h3>Tony Hawk Raises Money...Yay!</h3>
-      <h6>October 10, 2016</h6>
-      <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
-      </p>
-      <span>[Read more]</span>
+    <div class="article">
+      <div class = "content">
+        <div class="title">Tony Hawk Foundation Raises Big Money at Celeb Fundraiser</div>
+        <div class="date">October 10, 2016</div>
+        <p>
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
+        </p>
+      </div>
+      <a href="http://tonyhawk.com/"><div class="read-more">[Read more]</div></a>
     </div>
 
-    <div class="article2">
-      <h3>Rodney Mullen Pops and Ollie</h3>
-      <h6>March 10, 2016</h6>
+
+    <div class="article">
+      <div class = "content">
+      <div class="title">Rodney Mullen: Pop an Ollie and Innovate! (TED Talk)</div>
+      <div class="date">March 10, 2016</div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
-      <span>[ Read more ]</span>
+      </div>
+      <a href="http://rodneymullen.com/"><div class="read-more">[ Read more ]</div></a>
     </div>
 
-    <div class="article3">
-      <h3>Ray Barbee Talks 'Ban This'</h3>
-      <h6>October 4, 2016</h6>
+    <div class="article" id="article3">
+      <div class = "content">
+      <div class="title">Ray Barbee Talks 'Ban This'</div>
+      <div class="date">October 4, 2016</div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
-      <span>[Read more]</span>
+    </div>
+      <a href="https://en.wikipedia.org/wiki/Ray_Barbee"><div class="read-more" id="read-more-3">[Read more]</div></a>
     </div>
   </div>
 
-<h3>SKATEBOARDERS</h3>
   <div class="skatersrow5">
     <div class="col1">
-      <!-- <div class="row1-half-pics">
-        <div class="top-pic-left"> -->
-          <!-- <img src="images/sk8er-4.png" alt="Lance Mountain"/> -->
           <div id="lance"><span>LANCE MOUNTAIN</span></div>
           <div id="rodney"><span>RODNEY MULLEN</span></div>
           <div id="steve"><span>STEVE CABALLERO</span></div>
@@ -110,59 +104,9 @@
           </div>
         </div>
 
-        <!-- <div class="col1-5"> -->
-          <!-- <div class="top-pic-right"> -->
-            <!-- <img src="images/sk8er-3.png" alt="Rodney Mullen"/> -->
 
-
-        <!-- </div> -->
-
-
-<!-- <div class="row2-bottom-pic">
-  <div class="bottom-center-steve"> -->
-    <!-- <img src="images/sk8er-4.png" alt="Steve Caballero"/> -->
-    <!-- <span id="skater-names">STEVE CABALLERO</span>
-  </div>
-</div>
-</div>
-
-    <div class="col2">
-      <div class="side-pic-tommy">
-        <div class="tommy">
-          <img src="images/sk8er-2.png" alt="Tommy Guerrero" />
-          <span id="skater-names">TOMMY GUERRERO</span>
-        </div>
-    </div>
-  </div>
-</div>
-<!-- </div> -->
-      <!-- <div class="tommy">
-        <img src="images/sk8er-2.png" alt="Tommy Guerrero" />
-        <span>Rodney Mullen</span>
-      </div> -->
-
-
-    <!-- <div class="top-grid">
-      <img id="lance"src="images/sk8er-4.png" alt="Lance Mountain" />
-      <h2>Lance Mountain</h2>
-      <img id="rodney"src="images/sk8er-3.png" alt="Rodney Mullen" />
-      <h2>Rodney Mullen</h2>
-    </div>
-
-    <div class="bottom-grid">
-      <img src="images/sk8er-1.png" alt="Steve Caballero" />
-      <h2>Steve Caballero</h2>
-    </div>
-
-    <div class="right-grid">
-      <img src="images/sk8er-2.png" alt="Tommy Guerrero" />
-      <h2>Tommy Guerrero</h2>
-    </div>
-  </div> -->
 
   <div class="row6-skateboards">
-    <img src="images/sk8-1.png" alt="skateboard1" />
-    <img src="images/sk8-2.png" alt="skateboard2" />
     <img src="images/sk8-3.png" alt="skateboard3" />
     <img src="images/sk8-4.png" alt="skateboard4" />
     <img src="images/sk8-5.png" alt="skateboard5" />
@@ -171,6 +115,8 @@
     <img src="images/sk8-8.png" alt="skateboard8" />
     <img src="images/sk8-9.png" alt="skateboard9" />
     <img src="images/sk8-10.png" alt="skateboard10"/>
+    <img src="images/sk8-2.png" alt="skateboard2" />
+    <img src="images/sk8-1.png" alt="skateboard1" />
   </div>
 </section>
 
@@ -178,9 +124,9 @@
 
   <div class="row7-footer">
     <div class="footer-left">
-      <h3>Contact Us for More Information</h3>
+      <div id="contact-us">Contact Us for More Information</div>
       <p>
-        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. 
+        Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.
       </p>
     <div class="footer-social-boxes">
       <span class="fa fa-facebook-square fa-3x"> </span>
@@ -202,6 +148,5 @@
 
   </footer>
 </div>
-<!-- </div> -->
 </body>
 </html>

@@ -1,10 +1,16 @@
 .skatersrow5 {
  width: 100%;
- display: block;
- // background-color: red;
+ display: inline-block;
  height: 22em;
- // text-align: center;
+ padding-top: 10px;
+
 }
+
+
+h3 {
+  color: #FFF;
+}
+
 span {
   position: relative;
   top: 2em;
@@ -115,7 +121,7 @@ span #skater-names {
     border: solid #FFF;
 
     span {
-      color: white;color: white;
+      color: white;
       position: relative;
       top: 4em;
       margin-left: -37px;
@@ -127,18 +133,25 @@ span #skater-names {
   }
 
   .row6-skateboards {
-    margin-top: 30px;
+    margin-top: 15px;
     margin-right: -5px;
     background-color: white;
+    width: 101%;
+    height: 100%;
   }
 
   .row6-skateboards img {
-    width: 6.5%;
-    height: 93%;
-    padding-right: 12px;
-    padding-top: 6px;
+    width: 6.4%;
+    height: 100%;
+    padding-right: 13px;
+    padding-top: 0px;
     padding-left: 14px;
-    padding-bottom: 6px;
+    padding-bottom: 0px;
+    // transition: .1s ease-in-out;
+      &:hover {
+      width: 6.5%;
+      height: 101%;
+    }
   }
 
 // .row-1-half-pics {
