@@ -28,9 +28,9 @@ body {
     position: absolute;
     top: 11.1px;
     transform: rotate(90deg); }
-  body .page-container {
-    margin-left: 190px;
-    margin-right: 198px; }
+  body .container {
+    margin-left: 15%;
+    margin-right: 16%; }
 
 header {
   width: 100%;
@@ -85,21 +85,19 @@ header {
         color: #ffc0cb;
         opacity: .4; }
   header .row2-tabs {
-    width: 100%;
     color: #FFF;
     display: inline-flex;
-    width: 140%;
-    margin: 37px 0 8px -2px; }
+    width: 132%;
+    margin: 10px 0px 10px -3px; }
     header .row2-tabs div {
-      display: inline-block;
-      text-align: center;
-      width: 14.9%;
+      font: 9px;
+      width: 16.1%;
       height: 1em;
       background-color: #910000;
       padding-top: 1em;
       padding-left: 2.87em;
       padding-right: 1.37em;
-      margin-right: 23px;
+      margin-right: 19px;
       vertical-align: middle;
       text-align: center;
       padding: 10px;
@@ -349,3 +347,99 @@ footer {
   color: #FFF;
   width: 47%;
   font-size: 14px; }
+
+@media (min-width: 320px) and (max-width: 767px) {
+  div#base {
+    display: none; }
+  header .row1-navbar {
+    display: none; }
+  .subscribe {
+    display: none; }
+  .social-boxes span {
+    display: none; }
+  header .row2-tabs {
+    color: #FFF;
+    display: inline-flex;
+    width: 144%;
+    padding-left: 3px; }
+    header .row2-tabs div {
+      width: 12.8%;
+      height: 1.5em;
+      margin-right: 26px;
+      padding: 6px;
+      box-shadow: 0 1px 1px 1px gray;
+      font-size: 7px; }
+  header .row3-slider-imgs {
+    height: 122px;
+    width: 100%;
+    padding-left: 52px;
+    background-position: 59% 25%; }
+  header .grid img {
+    display: none; }
+  header .topimg img {
+    width: 37%;
+    top: -5em;
+    left: 8em; }
+  section .row4-articles {
+    width: 125.5%;
+    margin-top: 15px; }
+  section .article {
+    width: 100%;
+    height: 7em;
+    border-top: 2px solid #cacaca;
+    border-bottom: 2px solid #cacaca;
+    overflow: hidden; }
+  section .content {
+    padding: 0.5em 0.5em 0; }
+  section .title {
+    font-size: 9px; }
+  section .date {
+    font-size: 7px; }
+  section p {
+    font-size: 7px;
+    line-height: normal; }
+  .read-more {
+    font-size: 7px; }
+  section #read-more-3 {
+    font-size: 8px;
+    padding-top: 11px; }
+  .skatersrow5 {
+    width: 125%;
+    padding-top: 11px;
+    height: 5.5em; }
+  .skatersrow5 #lance {
+    width: 46%;
+    margin-bottom: 2%; }
+  .skatersrow5 #rodney {
+    width: 44%; }
+  .skatersrow5 #steve {
+    width: 96%; }
+  .skatersrow5 #lance span {
+    font-size: 11px;
+    font-weight: normal;
+    margin-left: -9px;
+    margin-right: 9px; }
+  .skatersrow5 #rodney span {
+    font-size: 11px;
+    font-weight: normal;
+    margin-left: 0px;
+    margin-right: 2px; }
+  .skatersrow5 #steve span {
+    font-size: 11px;
+    font-weight: normal;
+    margin-right: 19px; }
+  .skatersrow5 #tommy span {
+    font-size: 7px;
+    font-weight: normal;
+    margin-right: -39px; }
+  .skatersrow5 #tommy {
+    height: 110%; }
+  .row6-skateboards {
+    width: 127.5%;
+    margin-top: 25px; }
+  .row6-skateboards img {
+    width: 5.4%;
+    padding-right: 0px;
+    padding-left: 6px; }
+  .row7-footer {
+    display: none; } }

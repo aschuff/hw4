@@ -72,22 +72,22 @@ header {
 
 
 .row2-tabs {
-    width: 100%;
+    // width: 100%;
     color: #FFF;
     display: inline-flex;
-    width: 140%;
-    margin: 37px 0 8px -2px;
+    width: 132%;
+    margin: 10px 0px 10px -3px;
 
     div {
-    display: inline-block;
-    text-align: center;
-    width: 14.9%;
+    // display: inline-block;
+    font: 9px;
+    width: 16.1%;
     height: 1em;
     background-color: #910000;
     padding-top: 1em;
     padding-left: 2.87em;
     padding-right: 1.37em;
-    margin-right: 23px;
+    margin-right: 19px;
     vertical-align: middle;
     text-align: center;
     padding: 10px;
