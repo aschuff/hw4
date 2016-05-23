@@ -12,26 +12,24 @@ body {
 
 
 #base {
-  background: #910000;
+    background: #910000;
     display: inline-block;
     height: 56px;
     margin-left: 20px;
-    // margin-top: 55px;
+    //margin-top: 55px;
     position: relative;
     width: 132px;
     bottom: -66em;
-
-    div {
-  color: #FFF;
-  position: relative;
-  font-size: 14px;
-  top: 18px;
-  left: 7px;
-  }
-
+    divcolor: #FFF;
+    position: relative;
+    font-size: 14px;
+    top: 18px;
+    left: 7px;
 }
+}
+
 #base:before {
-  border-bottom: 35px solid #910000;
+    border-bottom: 35px solid #910000;
     border-left: 29px solid transparent;
     border-right: 29px solid transparent;
     content: "";
@@ -40,19 +38,19 @@ body {
     top: 11.1px;
     transform: rotate(90deg);
 }
+
 #square {
-	width: 100px;
-	height: 100px;
-	background: #910000;
+    width: 100px;
+    height: 100px;
+    background: #910000;
 }
 
 #triangle-right {
-  width: 0;
-  height: 0;
-  border-top: 50px solid transparent;
-  border-left: 100px solid #910000;
-  border-bottom: 50px solid transparent;
-
+    width: 0;
+    height: 0;
+    border-top: 50px solid transparent;
+    border-left: 100px solid #910000;
+    border-bottom: 50px solid transparent;
 }
 
 

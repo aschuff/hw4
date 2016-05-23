@@ -1,73 +1,75 @@
 footer {
-  background-color: white;
-  margin-top: 1%;
-  overflow: hidden;
-  width: 101%;
-  font-size: 14px;
+    background-color: #fff;
+    margin-top: 1%;
+    overflow: hidden;
+    width: 101%;
+    font-size: 14px;
 }
 
 .footer-left {
-  display: inline-block;
-  width: 40%;
-  text-align: left;
-  margin-left: 2em;
-    #contact-us {
-      color: black;
-      font-weight: bold;
-    }
-  .footer-social-boxes  {
+    display: inline-block;
+    width: 40%;
+    text-align: left;
+    margin-left: 2em;
+    #contact-uscolor: #000;
+    font-weight: 700;
+}
+
+.footer-social-boxes {
     position: relative;
     width: 13em;
-    // right: 13em;
-    // bottom: 25em;
-
-    .fa-facebook-square {
-      color: gray;
-      top: 0em;
-      left: 0em;
-      width: 1em;
-      }
-
-    .fa-rss-square {
-      color: gray;
-      width: 1em;
-      top: 0em;
-      }
-
-    .fa-twitter-square {
-      color: gray;
-      width: 1em;
-      top: 0em;
-      }
-
-    .fa-youtube-square {
-      color: gray;
-      width: 1em;
-      top: 0em;
-      }
-  }
+    //right: 13em;
+    //bottom: 25em;
+    .fa-facebook-squarecolor: gray;
+    top: 0;
+    left: 0;
+    width: 1em;
 }
+
+.fa-rss-square {
+    color: gray;
+    width: 1em;
+    top: 0;
+}
+
+.fa-twitter-square {
+    color: gray;
+    width: 1em;
+    top: 0;
+}
+
+.fa-youtube-square {
+    color: gray;
+    width: 1em;
+    top: 0;
+}
+}
+
+
+}
+
 .contact-form {
-  width: 40%;
-  height: 100%;
-  position: relative;
-  bottom: 0em;
-  left: 7em;
-  display: inline-block;
+    width: 40%;
+    height: 100%;
+    position: relative;
+    bottom: 0;
+    left: 7em;
+    display: inline-block;
 }
-    .form-item {
-      display: block;
-      width: 100%;
-      margin-bottom: 1%;
-      box-shadow: -3px -3px rgba(130, 128, 128, 0.21);
-    }
 
-    #form-submit {
-      position: relative;
-      top: 0em;
-      left: 14em;
-      background-color: #910000;
-      color: #FFF;
-      width: 47%;
-      font-size: 14px
-    }
+.form-item {
+    display: block;
+    width: 100%;
+    margin-bottom: 1%;
+    box-shadow: -3px -3px rgba(130,128,128,0.21);
+}
+
+#form-submit {
+    position: relative;
+    top: 0;
+    left: 14em;
+    background-color: #910000;
+    color: #FFF;
+    width: 47%;
+    font-size: 14px;
+}
