@@ -20,15 +20,15 @@ body {
     position: relative;
     width: 132px;
     bottom: -66em;
-    divcolor: #FFF;
+    div {
+    color: #FFF;
     position: relative;
     font-size: 14px;
     top: 18px;
     left: 7px;
+  }
 }
-}
-
-#base:before {
+  #base:before {
     border-bottom: 35px solid #910000;
     border-left: 29px solid transparent;
     border-right: 29px solid transparent;
@@ -37,23 +37,7 @@ body {
     position: absolute;
     top: 11.1px;
     transform: rotate(90deg);
-}
-
-#square {
-    width: 100px;
-    height: 100px;
-    background: #910000;
-}
-
-#triangle-right {
-    width: 0;
-    height: 0;
-    border-top: 50px solid transparent;
-    border-left: 100px solid #910000;
-    border-bottom: 50px solid transparent;
-}
-
-
+    }
   .page-container{
   margin-left: 190px;
   margin-right: 198px;

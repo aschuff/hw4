@@ -1,6 +1,6 @@
 section {
-    .row4-articlesdisplay: inline-flex;
-    //background-color: #fff;
+    .row4-articles {
+    display: inline-flex;
     margin-top: 23px;
 }
 
@@ -20,7 +20,10 @@ section {
 
 .content {
     padding: 1.5em 1.5em 0;
-    .titlefont-size: 16px;
+  }
+
+    .title {
+    font-size: 16px;
     text-align: left;
 }
 
@@ -35,7 +38,7 @@ p {
     text-align: left;
     line-height: 2;
 }
-}
+
 
 #read-more-3 {
     padding-top: 18px;
@@ -45,13 +48,5 @@ p {
     color: #910000;
     text-align: center;
     right: -6em;
-    //padding-top: 4em;
 }
-}
-
-// div {
-    //display: inline-block;
-    //width: 32%;
-    //border-radius: 3px;
-    //border: 1px solid #cacaca;
 }

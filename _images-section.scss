@@ -3,7 +3,7 @@
     display: inline-block;
     height: 22em;
     padding-top: 10px;
-}
+
 
 h3 {
     color: #FFF;
@@ -22,12 +22,9 @@ span #skater-names {
     display: inline-block;
     width: 70%;
     height: 100%;
-    //background-color: red;
-    //vertical-align: top;
-    //background-color: blue;
 }
 
-#lance {
+  #lance {
     display: inline-block;
     background-image: url(images/sk8er-4.png);
     background-size: cover;
@@ -39,17 +36,17 @@ span #skater-names {
     height: 50%;
     border: solid #FFF;
     margin-bottom: 7px;
-    // spanposition: relative;
-    top: 1em;
-    margin-left: -37px;
-    margin-right: 49px;
-    color: #fff;
-    font-size: 36px;
-    font-weight: 700;
-}
-}
+    span {
+      top: 1em;
+      margin-left: -37px;
+      margin-right: 49px;
+      color: #fff;
+      font-size: 36px;
+      font-weight: 700;
+      }
+    }
 
-#rodney {
+  #rodney {
     display: inline-block;
     background-image: url(images/sk8er-3.png);
     background-repeat: no-repeat;
@@ -60,7 +57,7 @@ span #skater-names {
     width: 48%;
     height: 50%;
     border: solid #FFF;
-    // spancolor: #fff;
+    span {
     position: relative;
     top: 1em;
     margin-left: -46px;
@@ -68,13 +65,12 @@ span #skater-names {
     color: #fff;
     font-size: 36px;
     font-weight: 700;
-}
+  }
 }
 
-#steve {
+  #steve {
     background-image: url(images/sk8er-1.png);
     background-repeat: no-repeat;
-    //background-size: cover;
     background-position: center;
     background-size: 100% 165%;
     text-align: center;
@@ -82,7 +78,7 @@ span #skater-names {
     width: 99%;
     height: 45.5%;
     border: solid #FFF;
-    // spancolor: #fff;
+    span {
     position: relative;
     top: 1.5em;
     margin-left: -37px;
@@ -90,7 +86,7 @@ span #skater-names {
     color: #fff;
     font-size: 36px;
     font-weight: 700;
-}
+  }
 }
 
 .col2 {
@@ -98,10 +94,9 @@ span #skater-names {
     width: 29%;
     height: 99%;
     float: right;
-    //background-color: green;
 }
 
-#tommy {
+  #tommy {
     background-image: url(images/sk8er-2.png);
     background-repeat: no-repeat;
     background-position: 78%;
@@ -111,7 +106,7 @@ span #skater-names {
     width: 100%;
     height: 100%;
     border: solid #FFF;
-    // spancolor: #fff;
+    span {
     position: relative;
     top: 4em;
     margin-left: -37px;
@@ -119,172 +114,27 @@ span #skater-names {
     color: #fff;
     font-size: 36px;
     font-weight: 700;
+  }
 }
 }
 
 .row6-skateboards {
     margin-top: 15px;
     margin-right: -5px;
-    background-color: #fff;
+    background-color: #FFF;
     width: 101%;
     height: 100%;
 }
-
-.row6-skateboards img {
+  .row6-skateboards img {
+    background-color: #FFF;
     width: 6.4%;
     height: 100%;
     padding-right: 13px;
     padding-top: 0;
     padding-left: 14px;
     padding-bottom: 0;
-    //transition: .1s ease-in-out;
-    &: hover {;
-    width: 6.5%;
-    height: 101%;
-}
-}
-
-// .row-1-half-pics {
-    //width: 100%;
-}
-
-//
-// .top-pic-left {
-    //background-image: url(images/sk8er-4.png) no-repeat;
-    //width: 45%;
-}
-
-//
-// .top-pic-right {
-    //background-image: url(images/sk8er-3.png) no-repeat;
-    //width: 45%;
-}
-
-//
-// .row-2-bottom-pic {
-    //background-image: url(images/sk8er-4.png) no-repeat;
-    //width: 100%;
-}
-
-//
-// // .bottom-center-steve {
-}
-
-//
-// .col2 {
-    //width: 30%;
-}
-
-//
-// .side-pic-tommy {
-    //background-image: url(images/sk8er-2.png) no-repeat;
-    //width: 100%;
-}
-
-// .row5column2 {
-    //display: inline-block;
-    //width: 33%;
-    //height: 100%;
-    ////background-color: blue;
-    //vertical-align: top;
-}
-
-// .half-picks {
-    //width: 100%;
-    //display: block;
-}
-
-// .co1-5 {
-    //display: inline-block;
-    //background-image: image(images/sk8er-4.png) no-repeat;
-    //background-size: cover;
-    //width: 50%;
-}
-
-//
-// .row-2
-// .rodney img {
-    ////display: inline-block;
-    //background-image: image(images/sk8er-3.png)no-repeat;
-    //width: 50%;
-}
-
-//
-// .steve img {
-    //background-image: image(images/sk8er-4.png) no-repeat;
-    //width: 70%;
-}
-
-//
-// .tommy img {
-    //background-image: image(images/sk8er-2.png) no-repeat;
-    //width: 30%;
-}
-
-// .row5 {
-    //color: #FFF;
-}
-
-//
-// .row5 img {
-    //border: #FFF solid 4px;
-}
-
-//
-// .top-grid {
-    //display: inline-flex;
-    //width: 85%;
-}
-
-// .top-grid #lance {
-    //background: url(images/sk8er-4.png) no-repeat 90% 20% fixed;
-    //background-size: cover;
-}
-
-//
-// .top-grid #rodney {
-    //background: url(images/sk8er-3.png) no-repeat 90% 20% fixed;
-    //background-clip: cover;
-}
-
-// // .top-grid img {
-    ////width: 30%;
-    //////display: inline-flex;
-    //////width: 85%;
-    //////border: solid #FFF 3px;
-}
-
-//
-// .bottom-grid img {
-    ////border: solid #FFF 3px;
-}
-
-//
-// .right-grid img {
-    //float: right;
-    ////border: solid #FFF 3px;
-}
-
-//
-// // .base-shape {
-    ////background: #910000;
-    ////display: inline-block;
-    ////height: 55px;
-    ////margin-left: 20px;
-    ////margin-top: 55px;
-    ////position: relative;
-    ////width: 100px;
-}
-
-// // .base-shape:before {
-    ////border-bottom: 35px solid red;
-    ////border-left: 50px solid transparent;
-    ////border-right: 50px solid transparent;
-    ////content: ;
-    ////height: 0;
-    ////left: 0;
-    ////position: absolute;
-    ////top: -35px;
-    ////width: 0;
-    ////color: #910000;
-}
+      &:hover {
+        width: 6.5%;
+        height: 101%;
+      }
+    }

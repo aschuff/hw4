@@ -11,16 +11,19 @@ footer {
     width: 40%;
     text-align: left;
     margin-left: 2em;
-    #contact-uscolor: #000;
+  }
+
+    #contact-us {
+    color: #000;
     font-weight: 700;
 }
 
 .footer-social-boxes {
     position: relative;
     width: 13em;
-    //right: 13em;
-    //bottom: 25em;
-    .fa-facebook-squarecolor: gray;
+
+    .fa-facebook-square {
+    color: gray;
     top: 0;
     left: 0;
     width: 1em;
@@ -44,10 +47,6 @@ footer {
     top: 0;
 }
 }
-
-
-}
-
 .contact-form {
     width: 40%;
     height: 100%;
